@@ -14,7 +14,7 @@ body {
 
 /* Header style */
 header {
-  background-image: url(../multimedia/imagenes/fondo_spa_nav.jpeg);
+  background-image: url(../multimedia/imagenes/zen_path_fondo_nav);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -36,14 +36,16 @@ nav a {
   text-decoration: none;
   margin: 0 20px;
 }
-
-h1 {
-  font-weight: 800;
-  font-size: 60px;
-  margin-bottom: 1000px;
+.titulospa  {
+  font-size: 130px;
+  font-weight: 500px;
+  margin-bottom: 30px;
   font-family: 'Shadows Into Light', cursive;
-  text-align: center;
-}
+  padding-top: 50px;
+  
+  }
+
+
 
 /* Main content style */
 main {
@@ -59,10 +61,15 @@ main {
  
 }
 
+
+
 h1 {
-font-size: 100px;
-margin-bottom: 30px;
-font-family: 'Shadows Into Light', cursive;
+  font-weight: 800;
+  font-size: 120px;
+  margin-bottom: 1000px;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  padding-top: 25px;
 }
 
 
@@ -169,6 +176,8 @@ iframe {
   height: 450px;
   border: 0;
 }
+
+
 
 /* Footer style */
 footer {
