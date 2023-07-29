@@ -66,10 +66,10 @@ main {
 h1 {
   font-weight: 800;
   font-size: 120px;
-  margin-bottom: 1000px;
+  margin-bottom: 100px;
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
-  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 
