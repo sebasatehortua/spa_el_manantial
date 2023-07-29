@@ -36,16 +36,14 @@ nav a {
   text-decoration: none;
   margin: 0 20px;
 }
+
 .titulospa {
   font-size: 130px;
   font-weight: 500px;
   margin-bottom: 30px;
   font-family: 'Shadows Into Light', cursive;
   padding-top: 50px;
-  
-  }
-
-
+}
 
 /* Main content style */
 main {
@@ -55,13 +53,10 @@ main {
   background-color: #e8d2e981;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  border-color:2px #1d0b46;
+  border-color: 2px #1d0b46;
   display: flex;
   flex-wrap: wrap;
- 
 }
-
-
 
 h1 {
   font-weight: 800;
@@ -72,12 +67,10 @@ h1 {
   padding-bottom: 60px;
 }
 
-
-
 h2 {
   font-size: 60px;
   margin-bottom: 20px;
-  margin-top: 10PX;
+  margin-top: 10px;
   font-family: 'Shadows Into Light', cursive;
   text-shadow: #333;
 }
@@ -86,35 +79,32 @@ h3 {
   font-size: 20px;
   text-align: center;
   margin-bottom: 45px;
-  margin-top: 45PX;
+  margin-top: 45px;
   font-family: 'Shadows Into Light', cursive;
 }
 
-h4 { 
-  font-size: 27px; 
+h4 {
+  font-size: 27px;
   margin-bottom: 45px;
-  margin-top: 45PX;
+  margin-top: 45px;
   font-family: 'Shadows Into Light', cursive;
-
 }
 
 h5 {
   font-size: 35px;
   margin-bottom: 20px;
-  margin-top: 10PX;
+  margin-top: 10px;
   font-family: 'Shadows Into Light', cursive;
-  
 }
 
 .image-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-gap:10px;
-   
+  grid-gap: 10px;
 }
 
 .container {
-  column-count: 2; 
+  column-count: 2;
   column-gap: 20px;
 }
 
@@ -132,7 +122,6 @@ h5 {
   height: 100%;
   border-radius: 5px;
 }
-
 
 .contact-box {
   background-color: #f2f2f2;
@@ -177,8 +166,6 @@ iframe {
   border: 0;
 }
 
-
-
 /* Footer style */
 footer {
   background-color: #333;
@@ -194,4 +181,48 @@ footer h2 {
 
 footer p {
   margin-bottom: 10px;
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+  nav {
+    font-size: 30px;
+  }
+  .titulospa {
+    font-size: 60px;
+    padding-top: 20px;
+  }
+  h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+  }
+  h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  h5 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+  .container {
+    column-count: 1;
+  }
 }
