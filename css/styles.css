@@ -30,27 +30,20 @@ nav {
 
 nav a {
   font-size: 25px;
-  font-family: 'Merriweather Sans', 'Noto Sans HK', sans-serif;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Merriweather Sans", "Noto Sans HK", sans-serif;
+  font-family: "Shadows Into Light", cursive;
   color: #1d0b46;
   text-decoration: none;
   margin: 0 20px;
 }
 
-.titulospa {
-  font-size: 130px;
-  font-weight: 500px;
-  margin-bottom: 30px;
-  font-family: 'Shadows Into Light', cursive;
-  padding-top: 50px;
-}
 
 /* Main content style */
 main {
   max-width: 950px;
   margin: 40px auto;
   padding: 20px;
-  background-color: #e8d2e981;
+  background-color: rgba(232, 210, 233, 0.5058823529);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   border-color: 2px #1d0b46;
@@ -62,7 +55,7 @@ h1 {
   font-weight: 800;
   font-size: 120px;
   margin-bottom: 100px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   text-align: center;
   padding-bottom: 60px;
 }
@@ -71,7 +64,7 @@ h2 {
   font-size: 60px;
   margin-bottom: 20px;
   margin-top: 10px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   text-shadow: #333;
 }
 
@@ -80,21 +73,21 @@ h3 {
   text-align: center;
   margin-bottom: 45px;
   margin-top: 45px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
 }
 
 h4 {
   font-size: 27px;
   margin-bottom: 45px;
   margin-top: 45px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
 }
 
 h5 {
   font-size: 35px;
   margin-bottom: 20px;
   margin-top: 10px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
 }
 
 .image-grid {
@@ -136,9 +129,9 @@ label {
   margin-bottom: 10px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
+input[type=text],
+input[type=email],
+input[type=tel] {
   width: 97%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -183,7 +176,6 @@ footer p {
   margin-bottom: 10px;
 }
 
-
 /* Mobile Devices */
 @media only screen and (max-width: 767px) {
   nav {
@@ -226,3 +218,5 @@ footer p {
     column-count: 1;
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
