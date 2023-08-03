@@ -3,7 +3,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #faf9fa;
+  background-color: #d4a1d4;
+  
 }
 
 $container-max-width: 1200px;
@@ -51,6 +52,7 @@ main {
   border-color: 2px #1d0b46;
   display: flex;
   flex-wrap: wrap;
+  background: linear-gradient(170deg, rgba(210,182,194,1) 74%, rgba(200,214,231,1) 94%);
 }
 
 h1 {
@@ -96,6 +98,7 @@ h5 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
+  
 }
 
 .container {
