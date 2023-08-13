@@ -29,18 +29,3 @@
     }
   }
   
-  .image-boxcatalogo {
-    padding: 10px;
-    
-    .image-box {
-      margin-bottom: 15px;
-      
-      img {
-        transition: transform 0.3s ease;
-        
-        &:hover {
-          transform: scale(1.05);
-        }
-      }
-    }
-} 

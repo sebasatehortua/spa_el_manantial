@@ -32,7 +32,6 @@ h2 {
   text-align: center;
 }
 
-/* Texto principal */
 h3 {
   font-size: 1.2rem;
   margin: 20px auto;
@@ -232,19 +231,6 @@ h2 {
   transform: scale(1.1);
 }
 
-.image-boxcatalogo {
-  padding: 10px;
-}
-.image-boxcatalogo .image-box {
-  margin-bottom: 15px;
-}
-.image-boxcatalogo .image-box img {
-  transition: transform 0.3s ease;
-}
-.image-boxcatalogo .image-box img:hover {
-  transform: scale(1.05);
-}
-
 iframe {
   display: block;
   margin: 0 auto;
@@ -256,19 +242,10 @@ iframe.footer-video {
   border-radius: 8px;
 }
 
-iframe {
-  width: 70%;
-  height: 450px;
-  border: none;
-  border-radius: 8px;
-  margin-top: 20px;
-}
-
 @media only screen and (max-width: 768px) {
   .container {
     margin: 20px auto;
   }
-  /* Imágenes y botones */
   .image-box {
     flex: 0 0 calc(50% - 10px);
     margin-bottom: 20px;
