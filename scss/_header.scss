@@ -18,7 +18,7 @@ header {
   }
   
   nav {
-    background-color: #070000d8;
+    background-color: #03010cd8;
   
     a {
       color: white;
@@ -27,11 +27,11 @@ header {
       transition: background-color 0.3s ease;
   
       &:hover {
-        background-color: #555;
+        background-color: #2c2929;
       }
     }
   }
   nav a {
-    padding: 8px 15px;
+    padding: 8px 10px;
   }
   

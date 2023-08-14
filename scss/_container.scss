@@ -4,10 +4,30 @@
     justify-content: space-between;
     margin: 40px auto;
     max-width: 1200px;
+    .image-box {
+      flex: 0 0 calc(33.33% - 20px);
+      margin-bottom: 30px;
+      text-align: center;
     
-  }
-  @media only screen and (max-width: 768px) {
-    .container {
-      margin: 20px auto;
+      h5 {
+        font-size: 1.5rem;
+        margin: 10px;
+      }
+    
+      img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .container {
+        margin: 20px auto;
+      }
+      .image-box {
+        flex: 0 0 calc(50% - 10px);
+        margin-bottom: 20px;
+      }
     }
   }
+ 
