@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -30,11 +29,6 @@ h4 {
   margin: 20px auto;
   max-width: 1000px;
   text-align: center;
-}
-
-.rem {
-  font-size: 1.3rem;
-  color: #52a31c;
 }
 
 .sobrenosotros h1,
@@ -195,7 +189,6 @@ iframe {
     flex: 0 0 calc(50% - 10px);
     margin-bottom: 20px;
   }
-  /* Encabezado y navegación */
   header {
     padding: 10px 0;
   }
