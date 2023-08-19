@@ -1,14 +1,17 @@
 body {
     background-color: #ceeef3;
     line-height: 1.6;
-    background: radial-gradient(circle, rgba(187,182,210,1) 53%, rgba(119,151,235,0.8127626050420168) 78%);
+    background: radial-gradient(circle, rgb(202, 198, 221) 53%, rgba(136, 164, 236, 0.813) 78%);
     
   }
 
   h2 {
-    font-size: 2.8rem;
-    margin-bottom: 20px;
-    text-align: center;
+    
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3.5rem; 
+    color: #fcfdfd;
+    padding: 30px;
+    margin-top: 60px;
   }
   
   h3 {

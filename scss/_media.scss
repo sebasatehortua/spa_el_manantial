@@ -1,21 +1,45 @@
-@media only screen and (max-width: 768px) {
-    .container {
-      margin: 20px auto;
-    }
-    
-    .image-box {
-      flex: 0 0 calc(50% - 10px);
-      margin-bottom: 20px;
-    }
-    
-    header {
-      padding: 10px 0;
-      
-      h1 {
-        font-size: 5rem;
-        padding: 10px;
-        margin-top: 30px;
-      }
-    }
-   }
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 5rem;
+    padding: 20px;
+    margin-top: 40px;
+  }
   
+  h2,
+  h3,
+  h4,
+  .h2-index,
+  .container .image-box h5,
+  .form-login,
+  .contact-box {
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3,
+  h4,
+  .h2-index {
+    font-size: 1.5rem;
+  }
+
+  .container .image-box h5 {
+    font-size: 1rem;
+  }
+
+  
+  .image-boxcatalogo .image-box,
+  iframe,
+  .form-login,
+  .contact-box {
+    max-width: 100%;
+  }
+  
+  .image-boxcatalogo .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}

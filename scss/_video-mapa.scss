@@ -1,12 +1,15 @@
 iframe {
     display: block;
     margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
   
     &.footer-video {
       width: 200%;
       height: 200px;
       border: none;
       border-radius: 8px;
+      
     }
   }
   iframe {
@@ -16,3 +19,4 @@ iframe {
     border-radius: 8px;
     margin-top: 20px;
   }
+

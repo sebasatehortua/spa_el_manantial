@@ -20,18 +20,4 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
-button {
-  background-color: #24ad30;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  padding: 8px 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: #074907;
-  }
-}
 }

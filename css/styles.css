@@ -8,13 +8,15 @@
 body {
   background-color: #ceeef3;
   line-height: 1.6;
-  background: radial-gradient(circle, rgb(187, 182, 210) 53%, rgba(119, 151, 235, 0.812762605) 78%);
+  background: radial-gradient(circle, rgb(202, 198, 221) 53%, rgba(136, 164, 236, 0.813) 78%);
 }
 
 h2 {
-  font-size: 2.8rem;
-  margin-bottom: 20px;
-  text-align: center;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3.5rem;
+  color: #fcfdfd;
+  padding: 30px;
+  margin-top: 60px;
 }
 
 h3 {
@@ -43,6 +45,14 @@ h3, h4 {
   margin: 15px auto;
 }
 
+.h2-index {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 4.5rem;
+  color: #000808;
+  padding: 20px;
+  margin-top: 20px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -58,6 +68,7 @@ h3, h4 {
 .container .image-box h5 {
   font-size: 1.5rem;
   margin: 10px;
+  font-family: "Shadows Into Light", cursive;
 }
 .container .image-box img {
   width: 100%;
@@ -69,7 +80,6 @@ header {
   background-color: #ffffff;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 20px 0;
   background-image: url(../multimedia/imagenes/zen_path_fondo_nav);
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,13 +88,13 @@ header {
 header h1 {
   font-family: "Shadows Into Light", cursive;
   font-size: 7.5rem;
-  color: #080707;
+  color: #03041a;
   padding: 30px;
   margin-top: 60px;
 }
 
 nav {
-  background-color: rgba(3, 1, 12, 0.8470588235);
+  background-color: rgba(6, 2, 22, 0.8470588235);
 }
 nav a {
   color: white;
@@ -104,7 +114,19 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 20px 0;
+  padding: 30px 0;
+  padding-bottom: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #55acee; /* Para Twitter */
 }
 
 .footer-content {
@@ -113,17 +135,6 @@ footer {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.contact-info {
-  flex: 1;
-  text-align: left;
-  padding: 0 20px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
 }
 
 .image-boxcatalogo {
@@ -156,6 +167,8 @@ h2 {
 iframe {
   display: block;
   margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 iframe.footer-video {
   width: 200%;
@@ -172,21 +185,41 @@ iframe {
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-  .container {
-    margin: 20px auto;
-  }
-  .image-box {
-    flex: 0 0 calc(50% - 10px);
-    margin-bottom: 20px;
-  }
-  header {
-    padding: 10px 0;
-  }
+@media screen and (max-width: 768px) {
   header h1 {
     font-size: 5rem;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  h2,
+  h3,
+  h4,
+  .h2-index,
+  .container .image-box h5,
+  .form-login,
+  .contact-box {
     padding: 10px;
-    margin-top: 30px;
+    margin: 10px auto;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3,
+  h4,
+  .h2-index {
+    font-size: 1.5rem;
+  }
+  .container .image-box h5 {
+    font-size: 1rem;
+  }
+  .image-boxcatalogo .image-box,
+  iframe,
+  .form-login,
+  .contact-box {
+    max-width: 100%;
+  }
+  .image-boxcatalogo .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
 .form-login,
@@ -212,33 +245,19 @@ iframe {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-.form-login button,
-.contact-box button {
-  background-color: #24ad30;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  padding: 8px 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.form-login button:hover,
-.contact-box button:hover {
-  background-color: #074907;
-}
 
 button {
-  background-color: #1db331;
+  background-color: #99d4e2;
   border: none;
   border-radius: 4px;
-  color: white;
+  color: rgb(10, 0, 0);
   padding: 8px 16px;
   margin-top: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 button:hover {
-  background-color: #4d8d10;
+  background-color: #9ebcf3;
 }
 
 /*# sourceMappingURL=styles.css.map */

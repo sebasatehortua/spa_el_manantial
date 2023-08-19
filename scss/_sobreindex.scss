@@ -1,10 +1,21 @@
+
+.h2-index {
+font-family: 'Shadows Into Light', cursive;
+font-size: 4.5rem; 
+color: #000808;
+padding: 20px;
+margin-top: 20px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 40px auto;
     max-width: 1200px;
-    .image-box {
+
+
+   .image-box {
       flex: 0 0 calc(33.33% - 20px);
       margin-bottom: 30px;
       text-align: center;
@@ -12,6 +23,7 @@
       h5 {
         font-size: 1.5rem;
         margin: 10px;
+        font-family: 'Shadows Into Light', cursive;
       }
     
       img {
@@ -20,6 +32,4 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
     }
-    }
-  
- 
+  }
