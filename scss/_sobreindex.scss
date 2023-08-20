@@ -3,22 +3,30 @@
 font-family: 'Shadows Into Light', cursive;
 font-size: 4.5rem; 
 color: #000808;
-padding: 20px;
-margin-top: 20px;
+padding: 10px;
+
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 40px auto;
+    margin: 10px;
     max-width: 1200px;
+    
 
 
    .image-box {
-      flex: 0 0 calc(33.33% - 20px);
+    border: 2px;
+      flex: 0 0 calc(50% - 20px);
       margin-bottom: 30px;
       text-align: center;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: scale(1.2);
+        }
     
       h5 {
         font-size: 1.5rem;
