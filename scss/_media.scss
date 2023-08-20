@@ -14,6 +14,7 @@
   .contact-box {
     padding: 10px;
     margin: 10px auto;
+    font-size: small;
   }
 
   
@@ -21,7 +22,7 @@
     font-size: 1.7rem;
   }
 
-  h3,
+  
   h4,
   .h2-index {
     font-size: 1rem;
@@ -40,6 +41,6 @@
   }
   
   .image-boxcatalogo .image-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: 2 repeat(auto-fit, minmax(150px, 1fr));
   }
 }

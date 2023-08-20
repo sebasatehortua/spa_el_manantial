@@ -13,7 +13,7 @@ body {
 
 h2 {
   font-family: "Shadows Into Light", cursive;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   color: #fcfdfd;
   padding: 0px;
   margin-top: 25px;
@@ -21,14 +21,15 @@ h2 {
 
 h3 {
   font-family: "Shadows Into Light", cursive;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
   margin: 20px auto;
   max-width: 1000px;
   text-align: center;
+  border-bottom: 20px;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 20px auto;
   max-width: 1000px;
   text-align: center;
@@ -43,7 +44,7 @@ h4 {
 
 h3, h4 {
   font-family: "Shadows Into Light", cursive;
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   margin: 15px auto;
 }
 
@@ -59,18 +60,18 @@ h3, h4 {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 10px;
-  max-width: 1200px;
+  max-width: auto;
 }
 .container .image-box {
   border: 2px;
-  flex: 0 0 calc(50% - 20px);
+  flex: 0 0 calc(50% - 15px);
   margin-bottom: 30px;
   text-align: center;
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
 .container .image-box:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .container .image-box h5 {
   font-size: 1.5rem;
@@ -133,7 +134,7 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #55acee; /* Para Twitter */
+  color: #55acee;
 }
 
 .footer-content {
@@ -206,11 +207,11 @@ iframe {
   .contact-box {
     padding: 10px;
     margin: 10px auto;
+    font-size: small;
   }
   h2 {
     font-size: 1.7rem;
   }
-  h3,
   h4,
   .h2-index {
     font-size: 1rem;
@@ -225,7 +226,7 @@ iframe {
     max-width: 100%;
   }
   .image-boxcatalogo .image-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: 2 repeat(auto-fit, minmax(150px, 1fr));
   }
 }
 .form-login,
