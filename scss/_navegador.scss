@@ -13,12 +13,16 @@ header {
       font-size: 7.5rem;
       color: #03041a;
       padding: 30px;
-      margin-top: 60px;
+      margin-top: 40px;
     }
   }
   
   nav {
     background-color: #060216d8;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    
     a {
       color: white;
       text-decoration: none;
