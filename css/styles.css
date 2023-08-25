@@ -16,7 +16,8 @@ h2 {
   font-size: 3.8rem;
   color: #fcfdfd;
   padding: 0px;
-  margin-top: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -26,6 +27,8 @@ h3 {
   max-width: 1000px;
   text-align: center;
   border-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 h4 {
@@ -62,12 +65,14 @@ h3, h4 {
   justify-content: space-between;
   margin: 10px;
   max-width: auto;
+  padding-top: 40px;
 }
 .container .image-box {
   border: 2px;
   flex: 0 0 calc(50% - 15px);
   margin-bottom: 30px;
   text-align: center;
+  padding: 10px;
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
@@ -230,11 +235,21 @@ iframe {
     grid-template-columns: 2 repeat(auto-fit, minmax(150px, 1fr));
   }
 }
-.form-login,
-.contact-box {
+.form-login {
   max-width: 400px;
   margin: 40px auto;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding: 70px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-login {
+  max-width: 400px;
+  margin: 40px auto;
+  margin-bottom: 400px;
   margin-top: 40px;
   padding: 70px;
   background-color: white;
@@ -254,6 +269,17 @@ input {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.contact-box {
+  max-width: 400px;
+  margin: 40px auto;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  padding: 70px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 button {

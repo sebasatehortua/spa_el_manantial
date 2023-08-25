@@ -1,8 +1,7 @@
-.form-login,
-.contact-box {
+.form-login {
 max-width: 400px;
 margin: 40px auto;
-margin-bottom: 50px ;
+margin-bottom: 400px ;
 margin-top: 40px;
 padding: 70px;
 background-color: white;
@@ -22,4 +21,15 @@ input {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.contact-box {
+max-width: 400px;
+margin: 40px auto;
+margin-bottom: 10px ;
+margin-top: 40px;
+padding: 70px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
