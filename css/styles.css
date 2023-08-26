@@ -52,12 +52,6 @@ h4 {
   margin-top: 40px;
 }
 
-h3, h4 {
-  font-family: "Kalam", cursive;
-  font-size: 1.8rem;
-  margin: 15px auto;
-}
-
 /* Estilos para el índice de nivel 2 */
 .h2-index {
   font-family: "Shadows Into Light", cursive;
@@ -253,17 +247,6 @@ iframe {
   /* Ajuste de rejilla de imágenes en la sección de catálogo en pantallas pequeñas */
   .image-boxcatalogo .image-grid {
     grid-template-columns: 2 repeat(auto-fit, minmax(150px, 1fr));
-  }
-  /* Estilos para el formulario de inicio de sesión */
-  .form-login {
-    max-width: 400px;
-    margin: 40px auto;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    padding: 70px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 }
 /* Estilos para el formulario de inicio de sesión */
