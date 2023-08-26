@@ -1,4 +1,5 @@
-* {
+*/* Resetear los márgenes y rellenos por defecto y hacer que el box-sizing sea border-box para el cálculo del tamaño de los elementos */
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;

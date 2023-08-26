@@ -1,10 +1,12 @@
+
+/* Estilos para el cuerpo del documento */
 body {
     background-color: #ceeef3;
     line-height: 1.6;
     background: radial-gradient(circle, rgb(202, 198, 221) 53%, rgba(136, 164, 236, 0.813) 78%);
     
   }
-
+/* Estilos para los encabezados de  h2 */
   h2 {
     
     font-family: 'Shadows Into Light', cursive;
@@ -15,7 +17,7 @@ body {
     margin-bottom: 10px;
   
   }
-  
+  /* Estilos para los encabezados de h3 */
   h3 {
     font-family: 'Kalam', cursive;
     font-size: 2.2rem;
@@ -27,6 +29,7 @@ body {
     padding-bottom: 50px;
     
   }
+  /* Estilos para los encabezados de h4 */
   h4 {
     font-family: 'Kalam', cursive;
     font-size: 1.5rem;
@@ -35,15 +38,14 @@ body {
     text-align: center;
     
   }
-  
-
-
+/* Estilos para los encabezados de h1 en diferentes secciones */
 .sobrenosotros h1,
   .sobrelogin h1,
   .sobrecatalogo h1 {
     font-size: 4rem;
     margin-top: 40px;
   }
+  
   h3, h4 {
     font-family: 'Kalam', cursive;
     font-size: 1.8rem;

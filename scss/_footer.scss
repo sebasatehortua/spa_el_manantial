@@ -1,13 +1,21 @@
+
+/* Estilos para el contenido del pie de página */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 30px 0;
     padding-bottom: 20px;
-    
-
-    
   }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para los iconos de redes sociales en el pie de página */
   .social-icons a {
     color: white;
     font-size: 24px;
@@ -19,12 +27,4 @@ footer {
   .social-icons a:hover {
     color: #55acee; 
   }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
+ 

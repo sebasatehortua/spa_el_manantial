@@ -1,11 +1,13 @@
+/* Estilos para pantallas pequeñas (hasta 768px) */
 @media screen and (max-width: 768px) {
+  /* Reducción de tamaño de encabezado principal */
   header h1 {
     font-size: 3rem;
     padding: 20px;
     margin-top: 20px;
   }
   
-  
+  /* Estilos generales para texto en pantallas pequeñas */
   h3,
   h4,
   .h2-index,
@@ -17,30 +19,28 @@
     margin: 10px auto;
     font-size: medium;
   }
-
-  
+  /* Reducción de tamaño de encabezados de nivel 2 en pantallas pequeñas */
   h2 {
     font-size: 1.7rem;
   }
-
-  
+    /* Reducción de tamaño de títulos en las cajas de imagen en pantallas pequeñas */
   .container .image-box h5 {
     font-size: 1rem;
   }
-
-  
+   /* Ajuste de ancho en la sección de catálogo en pantallas pequeñas */
   .image-boxcatalogo .image-box,
   iframe,
   .form-login,
   .contact-box {
     max-width: 100%;
   }
-  
+    /* Ajuste de rejilla de imágenes en la sección de catálogo en pantallas pequeñas */
   .image-boxcatalogo .image-grid {
     grid-template-columns: 2 repeat(auto-fit, minmax(150px, 1fr));
   }
-}
-.form-login {
+
+ /* Estilos para el formulario de inicio de sesión */
+ .form-login {
   max-width: 400px;
   margin: 40px auto;
   margin-bottom: 40px ;
@@ -50,3 +50,4 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+}

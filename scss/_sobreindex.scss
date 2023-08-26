@@ -1,4 +1,4 @@
-
+/* Estilos para el índice de nivel 2 */
 .h2-index {
 font-family: 'Shadows Into Light', cursive;
 font-size: 4.5rem; 
@@ -6,7 +6,7 @@ color: #000808;
 padding: 10px;
 
 }
-
+/* Estilos para el contenedor principal */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -15,8 +15,6 @@ padding: 10px;
     max-width: auto;
     padding-top: 40px;
     
-
-
    .image-box {
     border: 2px;
       flex: 0 0 calc(50% - 15px);
